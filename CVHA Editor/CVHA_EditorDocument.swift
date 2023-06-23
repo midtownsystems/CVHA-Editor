@@ -17,7 +17,7 @@ extension UTType {
 struct CVHA_EditorDocument: FileDocument {
     var text: String
 
-    init(text: String = "Hello, world!") {
+    init(text: String = "Hello, archers!") {
         self.text = text
     }
 
