@@ -1,0 +1,629 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22B0EFC12A45E229005E4D99 /* CVHA_EditorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFC02A45E229005E4D99 /* CVHA_EditorApp.swift */; };
+		22B0EFC32A45E229005E4D99 /* CVHA_EditorDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFC22A45E229005E4D99 /* CVHA_EditorDocument.swift */; };
+		22B0EFC52A45E229005E4D99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFC42A45E229005E4D99 /* ContentView.swift */; };
+		22B0EFC72A45E22A005E4D99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B0EFC62A45E22A005E4D99 /* Assets.xcassets */; };
+		22B0EFCC2A45E22A005E4D99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22B0EFCB2A45E22A005E4D99 /* Preview Assets.xcassets */; };
+		22B0EFD62A45E22A005E4D99 /* CVHA_EditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFD52A45E22A005E4D99 /* CVHA_EditorTests.swift */; };
+		22B0EFE02A45E22A005E4D99 /* CVHA_EditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFDF2A45E22A005E4D99 /* CVHA_EditorUITests.swift */; };
+		22B0EFE22A45E22A005E4D99 /* CVHA_EditorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B0EFE12A45E22A005E4D99 /* CVHA_EditorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22B0EFD22A45E22A005E4D99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B0EFB52A45E229005E4D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B0EFBC2A45E229005E4D99;
+			remoteInfo = "CVHA Editor";
+		};
+		22B0EFDC2A45E22A005E4D99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22B0EFB52A45E229005E4D99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22B0EFBC2A45E229005E4D99;
+			remoteInfo = "CVHA Editor";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22B0EFBD2A45E229005E4D99 /* CVHA Editor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CVHA Editor.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B0EFC02A45E229005E4D99 /* CVHA_EditorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVHA_EditorApp.swift; sourceTree = "<group>"; };
+		22B0EFC22A45E229005E4D99 /* CVHA_EditorDocument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVHA_EditorDocument.swift; sourceTree = "<group>"; };
+		22B0EFC42A45E229005E4D99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		22B0EFC62A45E22A005E4D99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22B0EFC82A45E22A005E4D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22B0EFC92A45E22A005E4D99 /* CVHA_Editor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CVHA_Editor.entitlements; sourceTree = "<group>"; };
+		22B0EFCB2A45E22A005E4D99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		22B0EFD12A45E22A005E4D99 /* CVHA EditorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CVHA EditorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B0EFD52A45E22A005E4D99 /* CVHA_EditorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVHA_EditorTests.swift; sourceTree = "<group>"; };
+		22B0EFDB2A45E22A005E4D99 /* CVHA EditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "CVHA EditorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B0EFDF2A45E22A005E4D99 /* CVHA_EditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVHA_EditorUITests.swift; sourceTree = "<group>"; };
+		22B0EFE12A45E22A005E4D99 /* CVHA_EditorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CVHA_EditorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22B0EFBA2A45E229005E4D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B0EFCE2A45E22A005E4D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B0EFD82A45E22A005E4D99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22B0EFB42A45E229005E4D99 = {
+			isa = PBXGroup;
+			children = (
+				22B0EFBF2A45E229005E4D99 /* CVHA Editor */,
+				22B0EFD42A45E22A005E4D99 /* CVHA EditorTests */,
+				22B0EFDE2A45E22A005E4D99 /* CVHA EditorUITests */,
+				22B0EFBE2A45E229005E4D99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		22B0EFBE2A45E229005E4D99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22B0EFBD2A45E229005E4D99 /* CVHA Editor.app */,
+				22B0EFD12A45E22A005E4D99 /* CVHA EditorTests.xctest */,
+				22B0EFDB2A45E22A005E4D99 /* CVHA EditorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22B0EFBF2A45E229005E4D99 /* CVHA Editor */ = {
+			isa = PBXGroup;
+			children = (
+				22B0EFC02A45E229005E4D99 /* CVHA_EditorApp.swift */,
+				22B0EFC22A45E229005E4D99 /* CVHA_EditorDocument.swift */,
+				22B0EFC42A45E229005E4D99 /* ContentView.swift */,
+				22B0EFC62A45E22A005E4D99 /* Assets.xcassets */,
+				22B0EFC82A45E22A005E4D99 /* Info.plist */,
+				22B0EFC92A45E22A005E4D99 /* CVHA_Editor.entitlements */,
+				22B0EFCA2A45E22A005E4D99 /* Preview Content */,
+			);
+			path = "CVHA Editor";
+			sourceTree = "<group>";
+		};
+		22B0EFCA2A45E22A005E4D99 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				22B0EFCB2A45E22A005E4D99 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		22B0EFD42A45E22A005E4D99 /* CVHA EditorTests */ = {
+			isa = PBXGroup;
+			children = (
+				22B0EFD52A45E22A005E4D99 /* CVHA_EditorTests.swift */,
+			);
+			path = "CVHA EditorTests";
+			sourceTree = "<group>";
+		};
+		22B0EFDE2A45E22A005E4D99 /* CVHA EditorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22B0EFDF2A45E22A005E4D99 /* CVHA_EditorUITests.swift */,
+				22B0EFE12A45E22A005E4D99 /* CVHA_EditorUITestsLaunchTests.swift */,
+			);
+			path = "CVHA EditorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22B0EFBC2A45E229005E4D99 /* CVHA Editor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B0EFE52A45E22A005E4D99 /* Build configuration list for PBXNativeTarget "CVHA Editor" */;
+			buildPhases = (
+				22B0EFB92A45E229005E4D99 /* Sources */,
+				22B0EFBA2A45E229005E4D99 /* Frameworks */,
+				22B0EFBB2A45E229005E4D99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CVHA Editor";
+			productName = "CVHA Editor";
+			productReference = 22B0EFBD2A45E229005E4D99 /* CVHA Editor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22B0EFD02A45E22A005E4D99 /* CVHA EditorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B0EFE82A45E22A005E4D99 /* Build configuration list for PBXNativeTarget "CVHA EditorTests" */;
+			buildPhases = (
+				22B0EFCD2A45E22A005E4D99 /* Sources */,
+				22B0EFCE2A45E22A005E4D99 /* Frameworks */,
+				22B0EFCF2A45E22A005E4D99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B0EFD32A45E22A005E4D99 /* PBXTargetDependency */,
+			);
+			name = "CVHA EditorTests";
+			productName = "CVHA EditorTests";
+			productReference = 22B0EFD12A45E22A005E4D99 /* CVHA EditorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22B0EFDA2A45E22A005E4D99 /* CVHA EditorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B0EFEB2A45E22A005E4D99 /* Build configuration list for PBXNativeTarget "CVHA EditorUITests" */;
+			buildPhases = (
+				22B0EFD72A45E22A005E4D99 /* Sources */,
+				22B0EFD82A45E22A005E4D99 /* Frameworks */,
+				22B0EFD92A45E22A005E4D99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22B0EFDD2A45E22A005E4D99 /* PBXTargetDependency */,
+			);
+			name = "CVHA EditorUITests";
+			productName = "CVHA EditorUITests";
+			productReference = 22B0EFDB2A45E22A005E4D99 /* CVHA EditorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22B0EFB52A45E229005E4D99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					22B0EFBC2A45E229005E4D99 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					22B0EFD02A45E22A005E4D99 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 22B0EFBC2A45E229005E4D99;
+					};
+					22B0EFDA2A45E22A005E4D99 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 22B0EFBC2A45E229005E4D99;
+					};
+				};
+			};
+			buildConfigurationList = 22B0EFB82A45E229005E4D99 /* Build configuration list for PBXProject "CVHA Editor" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 22B0EFB42A45E229005E4D99;
+			productRefGroup = 22B0EFBE2A45E229005E4D99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22B0EFBC2A45E229005E4D99 /* CVHA Editor */,
+				22B0EFD02A45E22A005E4D99 /* CVHA EditorTests */,
+				22B0EFDA2A45E22A005E4D99 /* CVHA EditorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22B0EFBB2A45E229005E4D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B0EFCC2A45E22A005E4D99 /* Preview Assets.xcassets in Resources */,
+				22B0EFC72A45E22A005E4D99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B0EFCF2A45E22A005E4D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B0EFD92A45E22A005E4D99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22B0EFB92A45E229005E4D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B0EFC12A45E229005E4D99 /* CVHA_EditorApp.swift in Sources */,
+				22B0EFC32A45E229005E4D99 /* CVHA_EditorDocument.swift in Sources */,
+				22B0EFC52A45E229005E4D99 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B0EFCD2A45E22A005E4D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B0EFD62A45E22A005E4D99 /* CVHA_EditorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B0EFD72A45E22A005E4D99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B0EFE02A45E22A005E4D99 /* CVHA_EditorUITests.swift in Sources */,
+				22B0EFE22A45E22A005E4D99 /* CVHA_EditorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22B0EFD32A45E22A005E4D99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B0EFBC2A45E229005E4D99 /* CVHA Editor */;
+			targetProxy = 22B0EFD22A45E22A005E4D99 /* PBXContainerItemProxy */;
+		};
+		22B0EFDD2A45E22A005E4D99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22B0EFBC2A45E229005E4D99 /* CVHA Editor */;
+			targetProxy = 22B0EFDC2A45E22A005E4D99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		22B0EFE32A45E22A005E4D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		22B0EFE42A45E22A005E4D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		22B0EFE62A45E22A005E4D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CVHA Editor/CVHA_Editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CVHA Editor/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HYBBSC5WU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CVHA Editor/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.cvha.CVHA-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22B0EFE72A45E22A005E4D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "CVHA Editor/CVHA_Editor.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CVHA Editor/Preview Content\"";
+				DEVELOPMENT_TEAM = 6HYBBSC5WU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "CVHA Editor/Info.plist";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UISupportsDocumentBrowser[sdk=iphonesimulator*]" = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.cvha.CVHA-Editor";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		22B0EFE92A45E22A005E4D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HYBBSC5WU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.cvha.CVHA-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVHA Editor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CVHA Editor";
+			};
+			name = Debug;
+		};
+		22B0EFEA2A45E22A005E4D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HYBBSC5WU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.cvha.CVHA-EditorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CVHA Editor.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CVHA Editor";
+			};
+			name = Release;
+		};
+		22B0EFEC2A45E22A005E4D99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HYBBSC5WU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.cvha.CVHA-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CVHA Editor";
+			};
+			name = Debug;
+		};
+		22B0EFED2A45E22A005E4D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6HYBBSC5WU;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.cvha.CVHA-EditorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "CVHA Editor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22B0EFB82A45E229005E4D99 /* Build configuration list for PBXProject "CVHA Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B0EFE32A45E22A005E4D99 /* Debug */,
+				22B0EFE42A45E22A005E4D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B0EFE52A45E22A005E4D99 /* Build configuration list for PBXNativeTarget "CVHA Editor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B0EFE62A45E22A005E4D99 /* Debug */,
+				22B0EFE72A45E22A005E4D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B0EFE82A45E22A005E4D99 /* Build configuration list for PBXNativeTarget "CVHA EditorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B0EFE92A45E22A005E4D99 /* Debug */,
+				22B0EFEA2A45E22A005E4D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22B0EFEB2A45E22A005E4D99 /* Build configuration list for PBXNativeTarget "CVHA EditorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B0EFEC2A45E22A005E4D99 /* Debug */,
+				22B0EFED2A45E22A005E4D99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 22B0EFB52A45E229005E4D99 /* Project object */;
+}
