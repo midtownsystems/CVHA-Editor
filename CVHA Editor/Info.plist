@@ -7,6 +7,8 @@
 		<dict>
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
+			<key>LSHandlerRank</key>
+			<string>Default</string>
 			<key>LSItemContentTypes</key>
 			<array>
 				<string>com.example.plain-text</string>
@@ -15,8 +17,10 @@
 			<string>$(PRODUCT_BUNDLE_IDENTIFIER).example-document</string>
 		</dict>
 	</array>
-	<key>CFBundleIdentifier</key>
-	<string></string>
+	<key>UTExportedTypeDeclarations</key>
+	<array>
+		<dict/>
+	</array>
 	<key>UTImportedTypeDeclarations</key>
 	<array>
 		<dict>
@@ -32,7 +36,7 @@
 			<dict>
 				<key>public.filename-extension</key>
 				<array>
-					<string>md</string>
+					<string>exampletext</string>
 				</array>
 			</dict>
 		</dict>
